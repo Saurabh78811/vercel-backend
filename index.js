@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000; // ✅ Added fallback for safety
 // ✅ Middleware
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "https://vercel-frontend-eight-liart.vercel.app/",
+    origin: "https://vercel-frontend-eight-liart.vercel.app/",
     credentials: true,
   })
 );
