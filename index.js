@@ -22,7 +22,7 @@ app.use(
   })
 );
 
-app.use(express.json({ limit: "20mb" })); // ✅ Add limit for large JSON uploads
+app.use(express.json({ limit: "10mb" })); // ✅ Add limit for large JSON uploads
 app.use(cookieParser());
 
 // ✅ Base Routes
